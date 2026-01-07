@@ -21,6 +21,17 @@ body {
     align-items: center;
 }
 
+.logoimg {
+    width: 200px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    margin-left: 30%;
+}
 
 .headlinks {
     display: flex;
@@ -75,4 +86,11 @@ h1 {
     color: #F9FAF8;
     margin: 0;
     font-family: 'Roboto', arial;
+}
+
+.heroimg {
+    width: 500px;
+    height: auto;
+    border-radius: 10px;
+    margin-left: 15%;
 }
