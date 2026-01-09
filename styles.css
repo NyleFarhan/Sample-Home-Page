@@ -95,20 +95,45 @@ h1 {
 
 .heroimg {
     width: 800px;
+    max-width: 100%;
+    display: block;
     height: auto;
     border-radius: 10px;
     margin-left: 8%;
 }
 
+/* phone for img */
+@media (max-width: 768px) {
+    .hero {
+        flex-direction: column;
+        text-align: center;
+        padding: 40px 20px;
+    }
+
+    .hero-cta {
+        margin-right: 0;
+        align-items: center;
+        text-align: center;
+    }
+
+    .heroimg {
+        margin-top: 30px;
+    }
+}
+
+
+
+
+
 .btn {
     background-color: #3B82F6;
     color: #F9FAF8;
     border: none;
-    padding: 40px 50px;
+    padding: 30px 30px;
     font-size: 35px;
     border-radius: 10px;
     cursor: pointer;
-    margin-top: 20px;
+    margin-top: 15px;
 
 }
 
@@ -155,4 +180,53 @@ h1 {
 .service-card p {
     color: #555;
     font-size: 16px;
+}
+
+
+/* Footer Section */
+
+.locationcont {
+    background-color: #1F2937;
+    padding: 60px 40px;
+    text-align: center;
+}
+.locheader {
+    background-color: #595d64;
+    font-weight: bold;
+    color: #F9FAF8;
+    padding: 40px;
+    text-align: center;
+}
+
+.locinfo {
+    font-size: 40px;
+    color: #E5E7EB;
+    margin-top: 10px;
+}
+
+.locimg {
+    width: 600px;
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 30px;
+    box-shadow: 0 5px 15px rgba(226, 200, 200, 0.1);
+}
+
+@media (max-width: 768px) {
+    .locationcont {
+        flex-direction: column;
+        text-align: center;
+        padding: 40px 20px;
+    }
+
+     .locinfo {
+        margin-right: 0;
+        align-items: center;
+        text-align: center;
+    }
+
+    .locimg {
+        margin-top: 30px;
+    }
 }
