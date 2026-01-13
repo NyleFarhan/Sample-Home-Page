@@ -1,2 +1,2 @@
 # Sample-Home-Page
-This is a sample home page as an assignment from Odin Projects 
+This is a home page for the clinic Mountain Medical.
